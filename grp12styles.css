@@ -17,11 +17,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
             margin:10px;
             color:black;}
 .aboutsubtitle  {padding-top:32px;
-    padding-bottom:32px;
-    font-family:arial;
-    font-size:large;
-    font-weight:600;
-    color: #7D8D87;}
+            padding-bottom:32px;
+            font-family:arial;
+            font-size:large;
+            font-weight:600;
+            color: #7D8D87;}
 .abouttext {font-family:arial;
             font-size:medium;
             color:#7D8D87;
