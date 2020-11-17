@@ -204,7 +204,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 /* Sarah - Attempt to change colour nov 16 704pm*/
 /* Sarah - Removed unused colours in default layout Nov 16 813 */
 .logogreen,.w3-hover-red:hover{color:#fff!important;background-color:#9EB45B!important}
-.navtan {color:#CBC497}
+.navtan {background-color:#CBC497}
 
 .w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
 .w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
