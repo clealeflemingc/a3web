@@ -11,6 +11,24 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 /* -------   INDEX (HOME) CSS STYLES    ------- */
 
+.abouttitle {font-size:40px;
+            font-family:arial;
+            font-weight:400;
+            margin:10px;
+            color:black;}
+.aboutsubtitle  {padding-top:32px;
+    padding-bottom:32px;
+    font-family:arial;
+    font-size:large;
+    font-weight:600;
+    color: #7D8D87;}
+.abouttext {font-family:arial;
+            font-size:medium;
+            color:#7D8D87;
+            font-weight:300;}
+
+
+
 
 /* -----   END INDEX (HOME) CSS STYLES    ----- */
 
@@ -156,7 +174,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
 .w3-display-position{position:absolute}
 .w3-circle{border-radius:50%}
-.w3-round-small{border-radius:2px}.w3-round,.w3-round-medium{border-radius:4px}.w3-round-large{border-radius:8px}.w3-round-xlarge{border-radius:16px}.w3-round-xxlarge{border-radius:32px}
+.w3-round-small{border-radius:2px}
+.w3-round,.w3-round-medium{border-radius:4px}
+.w3-round-large{border-radius:8px}
+.w3-round-xlarge{border-radius:16px}
+.w3-round-xxlarge{border-radius:32px}
 .w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
 .w3-container,.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
 .w3-code,.w3-codespan{font-family:Consolas,"courier new";font-size:16px}
