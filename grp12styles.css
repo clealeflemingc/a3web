@@ -1,19 +1,17 @@
 /* ----------   GLOBAL CSS STYLES    ---------- */
     /*Colours: gray-#7D8D87, green-#9EB45B, lightgray-#f1f1f1, black-#000, white-#fff, tan-#CBC497, brown-#B87f45
     
-    /*Responsive style for large screens*/
-    @media only screen and (min-width: 1200px){
-
+    /*Responsive style for desktop screens (larger than Ipad)*/
+    /*Screen sizes determined with F12 screen size viewer functionality*/
+    @media screen and (min-width: 1025px){
     }
 
-    /*Repsonsive style for medium screens & tablets*/
-    @media only screen and (min-width: 992px){
-
+    /*Repsonsive style for small screens & tablets (IPad pro=1024px)*/
+    @media screen and (max-width: 1024px){
     }
 
-    /*Responsive style for phones & small tablets*/
-    @media only screen and (min-width: 768px){
-
+    /*Responsive style for phones & small tablets (Pixel XL=411px)*/
+    @media screen and (max-width: 411px){
     }
 
 
@@ -27,6 +25,9 @@
     /*.logo {float:left; margin-left: 75px}*/
     /*END of Navbar and Header CSS*/
 
+
+
+    
     /* START of About Section CSS
     Carina Leale: Last Modified 23-Nov-2020*/
     .aboutblock {background-color:whitesmoke;
@@ -53,7 +54,12 @@
             font-weight:300;
             padding-left: 5%;
             padding-right: 5%;}
+    .linedivider {border-top: 1.5px #9EB45B solid;
+            padding-left: 5%;
+            padding-right: 5%;}
     /*END of About Section CSS*/
+
+
 
     /*START of Footer CSS
     Toby Agomuo; Last Modified: */
