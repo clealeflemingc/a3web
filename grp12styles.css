@@ -3,16 +3,19 @@
     
     /*Responsive style for desktop screens (larger than Ipad)*/
     /*Screen sizes determined with F12 screen size viewer functionality*/
-    @media screen and (min-width: 1025px){
+    @media screen and (min-width: 1025px)
+    {
     }
 
     /*Repsonsive style for small screens & tablets (IPad pro=1024px)*/
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 1024px)
+    {
     }
 
     /*Responsive style for phones & small tablets (Pixel XL=411px)*/
-    @media screen and (max-width: 411px){
-    }
+    @media screen and (max-width: 411px)
+        {
+        }
 
 
 /* ----------  END GLOBAL CSS STYLES  --------- */
@@ -26,37 +29,36 @@
     /*END of Navbar and Header CSS*/
 
 
-
-    
     /* START of About Section CSS
     Carina Leale: Last Modified 23-Nov-2020*/
-    .aboutblock {background-color:whitesmoke;
-            width: 100%;
-            padding-bottom: 2%;
-            padding-top: 2%;}
-    .title {font-size:40px;
-            font-family:arial;
-            font-weight:400;
-            color: #B87f45;
-            padding-left: 5%;
-            padding-right: 5%;}
-    .subtitle  {padding-top:0.25%;
-            padding-bottom:0.25%;
-            font-family:arial;
-            font-size:large;
-            font-weight:600;
-            color: #7D8D87;
-            padding-left: 5%;
-            padding-right: 5%;}
-    .bodytext {font-family:arial;
-            font-size:medium;
-            color:#7D8D87;
-            font-weight:300;
-            padding-left: 5%;
-            padding-right: 5%;}
-    .linedivider {border-top: 1.5px #9EB45B solid;
-            padding-left: 5%;
-            padding-right: 5%;}
+
+        .aboutblock {background-color:whitesmoke;
+                width: 100%;
+                padding-bottom: 1.5%;
+                padding-top: 1.5%;}
+        .title {font-size:40px;
+                font-family:arial;
+                font-weight:400;
+                color: #B87f45;
+                padding-left: 5%;
+                padding-right: 5%;}
+        .subtitle  {padding-top:0.25%;
+                padding-bottom:0.25%;
+                font-family:arial;
+                font-size:large;
+                font-weight:600;
+                color: #7D8D87;
+                padding-left: 5%;
+                padding-right: 5%;}
+        .bodytext {font-family:arial;
+                font-size:medium;
+                color:#7D8D87;
+                font-weight:300;
+                padding-left: 5%;
+                padding-right: 5%;}
+        .linedivider {border-top: 1.5px #9EB45B solid;
+                padding-left: 5%;
+                padding-right: 5%;}
     /*END of About Section CSS*/
 
 
@@ -64,7 +66,7 @@
     /*START of Footer CSS
     Toby Agomuo; Last Modified: */
 
-    /*END of Footer CSS*?
+    /*END of Footer CSS */
 
 /* -----   END INDEX (HOME) CSS STYLES    ----- */
 
