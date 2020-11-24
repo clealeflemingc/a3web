@@ -20,9 +20,64 @@
 
 /* -------   INDEX (HOME) CSS STYLES    ------- */
 
-    /* START of Navbar and Header CSS
-    Sarah Griffiths:Last Modified Nov 17
-    /*.logo {float:left; margin-left: 75px}*/
+    /* START of Navbar and Header CSS*/
+    /*Sarah Griffiths:Last Modified Nov 24*/
+
+		ul {list-style-type: none;
+			font-weight: 400;
+			overflow: hidden;
+			background-color: #CBC497;
+			padding: 0;
+			margin:0;
+			box-shadow: 0px 2px #7D8D87}
+		li {float: left}
+		li a {display: block;
+			color: whitesmoke;
+			font-family: arial;
+			font-size: 20px;
+			text-align: left;
+			padding: 16px 16px;
+			text-decoration: none}
+		li a:hover {background-color: whitesmoke; 
+			color: #000}
+		.sticky {position: fixed;
+			top: 0;
+			width: 100%}
+		.active {background-color: whitesmoke;
+			color: #000}
+		/*.dropdown-content {overflow: hidden;
+			display:none} */
+		header {margin: 0;
+			text-align: center;
+			padding-top: 90px;
+			padding-bottom: 180px;
+			background-color: #9EB45B;
+			color: whitesmoke;
+			font-family: Arial, Helvetica, sans-serif;
+			padding-right:75px;
+			padding-left: 75px;}
+		.logo {float: left}
+		.company {font-size:40px;
+				margin: 30px;
+                font-family:arial;
+				font-weight:400}
+		.slogan {font-size:20px;
+			margin: 30px;
+            font-family:arial;
+			font-weight:400}
+		.aboutbutton {display: inline-block;
+			background-color:#000;
+			padding-right: 30px;
+			padding-left: 30px;
+			padding-bottom:15px;
+			padding-top: 15px;
+			color: whitesmoke;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size: 18px;
+			text-decoration: none}
+		a:hover {background-color: #f1f1f1;
+			color:#000}
+	
     /*END of Navbar and Header CSS*/
 
 
