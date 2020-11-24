@@ -13,10 +13,7 @@
     }
 
     /*Responsive style for phones & small tablets (Pixel XL=411px)*/
-    @media screen and (max-width: 411px)
-        {
-        }
-
+   
 
 /* ----------  END GLOBAL CSS STYLES  --------- */
 
@@ -65,6 +62,98 @@
 
     /*START of Footer CSS
     Toby Agomuo; Last Modified: */
+    *{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-decoration:none;
+		}
+	.footer{
+			
+			width: 100vw;
+			display: block;
+			overflow: hidden;
+			padding: 70px 0;
+			box-sizing: border-box;
+			background-color:#90EE90;
+		}
+	.innerFooter{
+				display: block;
+				margin: 0 auto;
+				width: 1100px;
+				height: 100%;
+				
+				}
+	.innerFooter .logo{
+					width: 35%
+					float: left;
+					height: 100%;
+					display: block;
+					
+					}
+	.innerFooter .logo img{
+		width: 265px;
+		height: auto;
+		
+		}
+	.innerFooter .foot{
+		width: calc(22.67% - 20px);
+		margin-right: 10px;
+		float: left;
+		height: 100%;
+	
+		
+        }
+        .innerFooter.foot :last-child{
+            margin-right: 0;
+         
+            }
+	.innerFooter .foot h1{
+		font-family: 'arial';
+		font-size: 22px;
+		color: white;
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+		}
+    .innerFooter .foot a{
+            font-family: 'arial';
+            font-size: 18px;
+            color: white;
+            display: block;
+            font-weight: 200;
+            width: 100%;
+            padding-bottom: 5px;
+        }
+    .innerFooter .foot li{
+            display: inline-block;
+            padding: 0 5px;
+            font-size: 20px;
+        }
+    
+    .innerFooter .foot span{
+            color: white;
+            font-family: 'arial';
+            font-size: 16px;
+            font-weight: 200;
+            display: block;
+            width: 100;
+            padding-top: 20px;
+        }
+                  
+        @media  (max-width: 800px)
+        {
+            .footer .innerFooter{
+                    width: 90px;
+                
+            }
+            .innerFooter .logo,
+            .innerFooter .foot{
+    
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
 
     /*END of Footer CSS */
 
