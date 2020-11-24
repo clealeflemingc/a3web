@@ -62,12 +62,7 @@
 
     /*START of Footer CSS
     Toby Agomuo; Last Modified: */
-    *{
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		text-decoration:none;
-		}
+    
 	.footer{
 			
 			width: 100vw;
@@ -84,20 +79,20 @@
 				height: 100%;
 				
 				}
-	.innerFooter .logo{
-					width: 35%
-					float: left;
-					height: 100%;
-					display: block;
+    .innerFooter .logo{
+			width: 35%;
+			float: left;
+			height: 100%;
+			display: block;
 					
-					}
+	}
 	.innerFooter .logo img{
-		width: 265px;
+		width: 245px;
 		height: auto;
 		
 		}
 	.innerFooter .foot{
-		width: calc(22.67% - 20px);
+		width: calc(21.67% - 20px);
 		margin-right: 10px;
 		float: left;
 		height: 100%;
