@@ -43,97 +43,179 @@
 /* -------   INDEX (HOME) CSS STYLES    ------- */
 
     /* START of Navbar and Header CSS*/
-    /*Sarah Griffiths:Last Modified Nov 24*/
-
-        ul {list-style-type: none;
-            font-weight: 400;
-            overflow: hidden;
-            background-color: #CBC497;
-            padding: 0;
-            margin:0;
-            box-shadow: 0px 1px #7D8D87}
-        li {float: left}
-        li a {display: block;
-            color: whitesmoke;
-            font-family: arial;
-            font-size: 20px;
-            text-align: left;
-            padding: 16px 16px;
-            text-decoration: none}
-        li a:hover {background-color: whitesmoke; 
-            color: #000}
-        /*.sticky {position: fixed;
-            top: 0;
-            width: 100%} */
-        .active {background-color: whitesmoke;
-            color: #000}
-        .dropdown {
-            float: left;
-            overflow: hidden;}
-        .dropdown .dropbtn {
-            font-size: 20px;  
-            border: none;
-            outline: none;
-            color: whitesmoke;
-            padding: 16px 16px;
-            background-color: inherit;
-            font-family: arial;
-            margin: 0;}
-        .navbar a:hover, .dropdown:hover .dropbtn {
-            background-color: whitesmoke;
-            color: #000}
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: f1f1f1;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1}
-        .dropdown-content a {
-            float: none;
-            background-color: #f1f1f1;
-            color: black;
-            padding: 16px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: left}
-        .dropdown-content a:hover {
-            background-color: whitesmoke}
-        .dropdown:hover .dropdown-content {
-            display: block}
-        header {margin: 0;
-            text-align: center;
-            padding-top:55px;
-            padding-bottom: 180px;
-            background-color: #9EB45B;
-            color: whitesmoke;
-            font-family: Arial, Helvetica, sans-serif;
-            padding-right:75px;
-            padding-left: 75px;}
-        .logo {float: left;
-            margin: 0}
-        .company {font-size:40px;
-            margin: 30px;
-            margin-top:40px;
-            font-family:arial;
-            font-weight:400}
-        .slogan {font-size:20px;
-            margin: 30px;
-            font-family:arial;
-            font-weight:400}
-        .aboutbutton {display: inline-block;
-            background-color:#000;
-            padding-right: 30px;
-            padding-left: 30px;
-            padding-bottom:15px;
-            padding-top: 15px;
-            color: whitesmoke;
-            font-family:Arial, Helvetica, sans-serif;
-            font-size: 18px;
-            text-decoration: none}
-        a:hover {background-color: #f1f1f1;
-            color:#000}
-
+    /*Sarah Griffiths:Last Modified 1-Dec-2020*/
+	/* Desktop-Tablet */
+    ul {list-style-type: none;
+        font-weight: 400;
+        overflow: hidden;
+        background-color: #CBC497;
+        padding: 0;
+        margin:0;
+        box-shadow: 0px 1px #7D8D87}
+    li {float: left}
+    li a {display: block;
+        color: whitesmoke;
+        font-family: arial;
+        font-size: 20px;
+        text-align: left;
+        padding: 16px 16px;
+        text-decoration: none}
+    li a:hover {background-color: whitesmoke; 
+        color: #000}
+    .active {background-color: whitesmoke;
+        color: #000}
+    .dropdown {
+        float: left;
+        overflow: hidden;}
+    .dropdown .dropbtn {
+        font-size: 20px;  
+        border: none;
+        outline: none;
+        color: whitesmoke;
+        padding: 16px 16px;
+        background-color: inherit;
+        font-family: arial;
+        margin: 0;}
+    .desktopnavbar a:hover, .dropdown:hover .dropbtn {
+        background-color: whitesmoke;
+        color: #000}
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1}
+    .dropdown-content a {
+        float: none;
+        background-color: #f1f1f1;
+        color: black;
+        padding: 16px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left}
+    .dropdown-content a:hover {
+        background-color: whitesmoke}
+    .dropdown:hover .dropdown-content {
+        display: block}	
+    header {margin: 0;
+        text-align: center;
+        padding-top:55px;
+        padding-bottom: 180px;
+        background-color: #9EB45B;
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right:75px;
+        padding-left: 75px;}
+    .logo {float: left;
+		margin: 0}
+    .company {font-size:60px;
+        margin: 30px;
+		margin-top:40px;
+        font-family:arial;
+        font-weight:400}
+    .slogan {font-size:25px;
+        margin: 30px;
+        font-family:arial;
+        font-weight:400}
+    .aboutbutton {display: inline-block;
+        background-color:#000;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom:15px;
+        padding-top: 15px;
+        color: whitesmoke;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-decoration: none}
+    a:hover {background-color: #f1f1f1;
+        color:#000}
+	.mobilenavbar{display:none}
+	/* Mobile */
+	/* Header Responsive Design: https://www.youtube.com/watch?v=ZYV6dYtz4HA&ab_channel=DaniKrossing */
+	/* Hamburger: https://www.youtube.com/watch?v=At4B7A4GOPg&ab_channel=WebDevSimplified */
+	@media(max-width: 600px) {
+	header{display:none}
+	.desktopnavbar{display:none}
+	.toggle-button {display: flex;
+		position: absolute;
+		right:83%;
+		padding: 12px 12px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width:30px;
+		height: 21px}
+	.toggle-button .bar{height: 3px;
+		width: 100%;
+		background-color: white;
+		border-radius: 10px}
+	.mobilenavbar-links {display: none;
+		width:50%;
+		background-color:white;
+		padding:10px;
+		right:85%}
+	.mobilenavbar {flex-direction: column;
+		align-items: flex-start;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #9EB45B}
+	.company-title{font-size:20px;
+		font-family:Arial, Helvetica, sans-serif;
+		margin: 15px 85px;
+		color:whitesmoke}
+	ul {width:100%;
+		flex-direction: column;
+		margin:0;
+		padding:0;
+		display: flex;
+		background-color:white;
+		box-shadow:none}
+	li { text-align: center;
+		list-style-type: none;
+		float:left}
+	li a { padding: 10px 10px;
+		font-family:Arial, Helvetica, sans-serif;
+		color: #000;
+		font-size:20px;
+		text-decoration: none}
+    a:hover {background-color: #9EB45B}
+	.mobilenavbar-links.active {display: flex}
+	.mobilenavbar img {width: 10%;
+		position: absolute;
+		left:88%;
+		margin:0;
+		padding:0}
+	.wrapper{width:100%;
+		background-color:#9EB45B}
+	.wrapper img {width: 50%;
+		float:center;
+		padding: 20px 0px 0px 10px}	
+	.wrapper h1 {width: 50%;
+		margin:0px auto;
+		padding: 20px 45px 0px 45px;
+		text-align: center;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight: 400px;
+		font-size: 30px;}		
+	.wrapper p {width: 50%;
+		margin:0px auto;
+		padding: 20px 45px 20px 45px;
+		text-align: center;
+		font-size: 15px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight: 400px}
+	.mobileaboutbutton {margin:0px auto;
+		display: inline-block;
+        background-color:#000;
+        padding: 15px 30px 15px;
+        color: whitesmoke;
+		text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-decoration: none}}
+        
 /*END of Navbar and Header CSS*/
 
 

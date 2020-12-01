@@ -12,33 +12,46 @@
 
 <body>
   <!-- START of Navbar -->
-    <!-- Sarah Griffiths; Last Modified 24-Nov-2020 --> 
-    <!-- Sticky nav, started dropdown - doesn't work together. Need responsive design -->
-    <ul>
-      <li><a class="active" href="index.html">Home</a>
-    <li class="dropdown">
-      <button class="dropbtn">GIS Services 
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-      <a href="GISservices.html">Municipal Mapping</a>
-      <a href="GISservices.html">Web Design</a>
-      <a href="GISservices.html">Spatial Analysis</a>
-      <a href="GISservices.html">Environmental Services and Remote Sensing</a>
-    </li>
-      <li><a href="Projects.html">Projects</a>
-      <li><a href="MeetOurTeam.html">Meet Our Team</a>
-      <li><a href="Careers.html">Careers</a>
-    </ul>
-  
-    <!-- Navbar on small screens -->
-    <!-- <div>
-      <a href="GISservices.html">GIS Services</a>
-      <a href="Projects.html">Projects</a>
-      <a href="MeetOurTeam.html">Meet Our Team</a>
-      <a href="Careers.html">Careers</a>
-    </div> -->
-  <!-- END of Navbar-->
+    <!-- Sarah Griffiths; Last Modified 1-Dec-2020 --> 
+	  <!-- Desktop-Tablet -->
+      <ul class="desktopnavbar">
+	      <li><a class="active" href="index.html">Home</a>
+			  <li class="dropdown">
+				  <button class="dropbtn">GIS Services</button>
+				  <div class="dropdown-content">
+					  <a href="GISservices.html">Municipal Mapping</a>
+					  <a href="GISservices.html">Web Design</a>
+					  <a href="GISservices.html">Spatial Analysis</a>
+					  <a href="GISservices.html">Environmental Services and Remote Sensing</a>
+				  </div>
+			  </li>
+		    <li><a href="Projects.html">Projects</a>
+		    <li><a href="MeetOurTeam.html">Meet Our Team</a>
+		    <li><a href="Careers.html">Careers</a>
+      </ul>
+    <!-- Mobile -->
+	    <script src="grp12javascript.js"defer></script>
+    	<nav class="mobilenavbar">
+	    	<div>
+			    <h2 class="company-title">Spatia GIS 
+			    <!--<img src ="images/newmdlogo.png" alt="Company Logo">--> </h2>
+		    </div>
+	    	<a href="#" class="toggle-button">
+		    	<span class="bar"></span>
+		    	<span class="bar"></span>
+		    	<span class="bar"></span>
+		    </a>
+	    	<div class="mobilenavbar-links">
+			    <ul>
+			    	<li><a href="index.html">Home</a></li>
+				    <li><a href="GISservices.html">GIS Serivces</a></li>
+				    <li><a href="Projects.html">Projects</a></li>
+				    <li><a href="MeetOurTeam.html">Meet Our Team</a></li>
+				    <li><a href="Careers.html">Careers</a></li>
+			    </ul>
+		    </div>
+	  </nav>
+	  <!-- END of Navbar-->
   
   <!-- START of Header -->
     <!-- Sarah Griffiths; Last Modified 24-Nov-2020 -->
