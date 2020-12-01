@@ -139,7 +139,18 @@
 
     /* START of About Section CSS
     Carina Leale: Last Modified 23-Nov-2020*/
+		/* Create two columns that float next to each other */
+		.col-left {
+			float: left;}
+		.col-right {
+			float: right;}
 
+		/* Clear floats after the columns */
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;}
+		
         .aboutblock {background-color:whitesmoke;
                 padding-bottom: 1%;
                 padding-top: 1%;}
@@ -168,10 +179,11 @@
                 padding-left: 5%;
                 padding-right: 5%;}
         img.aboutcompanyimg {
-            max-width: 15%;
+            max-width: 100%;
             height: auto;
             float:top;
-            float:right;}       
+            float:right;
+            padding: 10px;}       
     /*END of About Section CSS*/
 
 
