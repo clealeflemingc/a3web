@@ -1,6 +1,6 @@
 /* ----------   GLOBAL CSS STYLES    ---------- */
-    /*Colours: gray-#7D8D87, green-#9EB45B, lightgray-#f1f1f1, black-#000, white-#fff, tan-#CBC497, brown-#B87f45
-    
+    /*Colours: gray-#7D8D87, green-#9EB45B, lightgray-#f1f1f1, black-#000, white-#fff, tan-#CBC497, brown-#B87f45 */
+	
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;}
@@ -43,7 +43,7 @@
 /* -------   INDEX (HOME) CSS STYLES    ------- */
 
     /* START of Navbar and Header CSS*/
-    /*Sarah Griffiths:Last Modified 1-Dec-2020*/
+    /*Sarah Griffiths:Last Modified 5-Dec-2020*/
 
 	/* Desktop-Tablet */
 
@@ -100,29 +100,28 @@
         background-color: whitesmoke}
     .dropdown:hover .dropdown-content {
         display: block}
-		
     header {margin: 0;
         text-align: center;
-		padding-top:50px;
-        padding-bottom: 140px;
+		padding-top:5vw;
+        padding-bottom: 30vw;
         background-color: #9EB45B;
         color: whitesmoke;
         font-family: Arial, Helvetica, sans-serif;
         padding-right:75px;
         padding-left: 75px;}
+	.head-text-right {float: right}
+	.head-text-left {float: left}
     .logo {float: left;
 		margin: 0;
-		margin-right: 40px;
-		width:30vw;
-		height:30vw}
+		width:25vw;
+		height:25vw}
     .company {font-size:5vw;
-        margin: 30px;
-		margin-top:40px;
-        font-family:arial;
+		margin-top:2vw;
+        font-family:Arial, Helvetica, sans-serif;
         font-weight:400}
     .slogan {font-size:3vw;
-        margin: 30px;
-        font-family:arial;
+        margin: 3vw;
+        font-family:Arial, Helvetica, sans-serif;
         font-weight:400}
     .aboutbutton {display: inline-block;
         background-color:#000;
@@ -138,15 +137,19 @@
         color:#000}		
 	.mobilenavbar{display:none}
 	.mobileheader{display:none}
-	
-	@media only screen and (min-width: 645px) and (max-width: 768px) {
+	@media only screen and (min-width: 645px) {
 		.logo {float: left;
 			margin: 0;
-			margin-right: 20px;
-			width:30vw;
-			height:30vw}
-		header {padding-top:55px;
-			padding-bottom: 80px}}
+			width:20vw;
+			height:20vw}
+		.company {font-size:5vw;
+			margin-top:2vw;
+			font-family:Arial, Helvetica, sans-serif;
+			font-weight:400}
+		.slogan {font-size:3vw;
+			margin: 3vw;
+			font-family:Arial, Helvetica, sans-serif;
+			font-weight:400}}
 	
 	
 	/* Mobile */
@@ -158,8 +161,9 @@
 	.desktopnavbar{display:none}
 	.toggle-button {display: flex;
 		position: absolute;
-		right:83%;
-		padding: 12px 12px;
+		top:1.75%;
+		right:82%;
+		padding: 15px 12px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -172,7 +176,7 @@
 	.mobilenavbar-links {display: none;
 		width:50%;
 		background-color:white;
-		padding:10px;
+		padding:3vw;
 		position:absolute;
 		left:0;
 		top:60px;}
@@ -180,16 +184,14 @@
 		align-items: flex-start;
 		display: flex;
 		align-items: center;
-		background-color: #CBC497}
-	.company-title h2{font-size:20px;
+		background-color: #CBC497;
+		padding:1vw}
+	.company-title p {font-size:25px;
 		font-family:Arial, Helvetica, sans-serif;
 		margin: 15px;
 		color:whitesmoke;
 		float:left}
-	.company-title img {float:right;
-		padding-right: 20px}
-	ul {width:100%;
-		flex-direction: column;
+	ul {flex-direction: column;
 		margin:0;
 		padding:0;
 		display: flex;
@@ -198,32 +200,36 @@
 	li {text-align: center;
 		list-style-type: none;
 		float:left}
-	li a {padding: 10px 10px;
+	li a {padding: 2vw 2vw;
 		font-family:Arial, Helvetica, sans-serif;
 		color: #000;
 		font-size:20px;
 		text-decoration: none}
-
     a:hover {background-color: #CBC497}
 	.mobilenavbar-links.active {display: flex}
-	.mobilenavbar img {width: 10%;
-		position: absolute;
-		left:88%;
+	.mobilenavbar img {position: absolute;
+		top:2%;
+		left:82%;
 		margin:0;
 		padding:0}
-		
 	.mobileheader {display:block;
 		margin:0;
 		background-color:#9EB45B;
-		padding: 10px;
+		padding: 3vw}
+	.mobileheader h1 {font-weight:400px;
+		font-size: 30px;
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		color: whitesmoke}
+	.mobileheader p {font-weight: 200px;
+		font-size: 15px;
 		text-align: center;
 		font-family:Arial, Helvetica, sans-serif;
-		color: whitesmoke;
-		font-weight: 400px;
-	font-size: 15px}}
-		
+		color: whitesmoke}}
 
 /*END of Navbar and Header CSS*/
+
+
 
 
 
