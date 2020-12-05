@@ -43,9 +43,10 @@
 /* -------   INDEX (HOME) CSS STYLES    ------- */
 
     /* START of Navbar and Header CSS*/
-    /*Sarah Griffiths:Last Modified 5-Dec-2020*/
-    
+    /*Sarah Griffiths:Last Modified 1-Dec-2020*/
+
 	/* Desktop-Tablet */
+
     ul {list-style-type: none;
         font-weight: 400;
         overflow: hidden;
@@ -99,6 +100,7 @@
         background-color: whitesmoke}
     .dropdown:hover .dropdown-content {
         display: block}
+		
     header {margin: 0;
         text-align: center;
 		padding-top:50px;
@@ -136,6 +138,7 @@
         color:#000}		
 	.mobilenavbar{display:none}
 	.mobileheader{display:none}
+	
 	@media only screen and (min-width: 645px) and (max-width: 768px) {
 		.logo {float: left;
 			margin: 0;
@@ -143,11 +146,13 @@
 			width:30vw;
 			height:30vw}
 		header {padding-top:55px;
-            padding-bottom: 80px}}
-            
+			padding-bottom: 80px}}
+	
+	
 	/* Mobile */
 	/* Header Responsive Design: https://www.youtube.com/watch?v=ZYV6dYtz4HA&ab_channel=DaniKrossing */
 	/* Hamburger: https://www.youtube.com/watch?v=At4B7A4GOPg&ab_channel=WebDevSimplified */		
+
 	@media(max-width: 645px) {
 	header{display:none}
 	.desktopnavbar{display:none}
@@ -198,13 +203,15 @@
 		color: #000;
 		font-size:20px;
 		text-decoration: none}
+
     a:hover {background-color: #CBC497}
 	.mobilenavbar-links.active {display: flex}
 	.mobilenavbar img {width: 10%;
 		position: absolute;
 		left:88%;
 		margin:0;
-		padding:0}	
+		padding:0}
+		
 	.mobileheader {display:block;
 		margin:0;
 		background-color:#9EB45B;
@@ -213,9 +220,11 @@
 		font-family:Arial, Helvetica, sans-serif;
 		color: whitesmoke;
 		font-weight: 400px;
-        font-size: 15px}}
-        
+	font-size: 15px}}
+		
+
 /*END of Navbar and Header CSS*/
+
 
 
 
