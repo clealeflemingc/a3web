@@ -43,7 +43,8 @@
 /* -------   INDEX (HOME) CSS STYLES    ------- */
 
     /* START of Navbar and Header CSS*/
-    /*Sarah Griffiths:Last Modified 1-Dec-2020*/
+    /*Sarah Griffiths:Last Modified 5-Dec-2020*/
+    
 	/* Desktop-Tablet */
     ul {list-style-type: none;
         font-weight: 400;
@@ -97,24 +98,27 @@
     .dropdown-content a:hover {
         background-color: whitesmoke}
     .dropdown:hover .dropdown-content {
-        display: block}	
+        display: block}
     header {margin: 0;
         text-align: center;
-        padding-top:55px;
-        padding-bottom: 180px;
+		padding-top:50px;
+        padding-bottom: 140px;
         background-color: #9EB45B;
         color: whitesmoke;
         font-family: Arial, Helvetica, sans-serif;
         padding-right:75px;
         padding-left: 75px;}
     .logo {float: left;
-		margin: 0}
-    .company {font-size:60px;
+		margin: 0;
+		margin-right: 40px;
+		width:30vw;
+		height:30vw}
+    .company {font-size:5vw;
         margin: 30px;
 		margin-top:40px;
         font-family:arial;
         font-weight:400}
-    .slogan {font-size:25px;
+    .slogan {font-size:3vw;
         margin: 30px;
         font-family:arial;
         font-weight:400}
@@ -129,12 +133,22 @@
         font-size: 18px;
         text-decoration: none}
     a:hover {background-color: #f1f1f1;
-        color:#000}
+        color:#000}		
 	.mobilenavbar{display:none}
+	.mobileheader{display:none}
+	@media only screen and (min-width: 645px) and (max-width: 768px) {
+		.logo {float: left;
+			margin: 0;
+			margin-right: 20px;
+			width:30vw;
+			height:30vw}
+		header {padding-top:55px;
+            padding-bottom: 80px}}
+            
 	/* Mobile */
 	/* Header Responsive Design: https://www.youtube.com/watch?v=ZYV6dYtz4HA&ab_channel=DaniKrossing */
-	/* Hamburger: https://www.youtube.com/watch?v=At4B7A4GOPg&ab_channel=WebDevSimplified */
-	@media(max-width: 600px) {
+	/* Hamburger: https://www.youtube.com/watch?v=At4B7A4GOPg&ab_channel=WebDevSimplified */		
+	@media(max-width: 645px) {
 	header{display:none}
 	.desktopnavbar{display:none}
 	.toggle-button {display: flex;
@@ -154,17 +168,21 @@
 		width:50%;
 		background-color:white;
 		padding:10px;
-		right:85%}
+		position:absolute;
+		left:0;
+		top:60px;}
 	.mobilenavbar {flex-direction: column;
 		align-items: flex-start;
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
-		background-color: #9EB45B}
-	.company-title{font-size:20px;
+		background-color: #CBC497}
+	.company-title h2{font-size:20px;
 		font-family:Arial, Helvetica, sans-serif;
-		margin: 15px 85px;
-		color:whitesmoke}
+		margin: 15px;
+		color:whitesmoke;
+		float:left}
+	.company-title img {float:right;
+		padding-right: 20px}
 	ul {width:100%;
 		flex-direction: column;
 		margin:0;
@@ -172,51 +190,33 @@
 		display: flex;
 		background-color:white;
 		box-shadow:none}
-	li { text-align: center;
+	li {text-align: center;
 		list-style-type: none;
 		float:left}
-	li a { padding: 10px 10px;
+	li a {padding: 10px 10px;
 		font-family:Arial, Helvetica, sans-serif;
 		color: #000;
 		font-size:20px;
 		text-decoration: none}
-    a:hover {background-color: #9EB45B}
+    a:hover {background-color: #CBC497}
 	.mobilenavbar-links.active {display: flex}
 	.mobilenavbar img {width: 10%;
 		position: absolute;
 		left:88%;
 		margin:0;
-		padding:0}
-	.wrapper{width:100%;
-		background-color:#9EB45B}
-	.wrapper img {width: 50%;
-		float:center;
-		padding: 20px 0px 0px 10px}	
-	.wrapper h1 {width: 50%;
-		margin:0px auto;
-		padding: 20px 45px 0px 45px;
+		padding:0}	
+	.mobileheader {display:block;
+		margin:0;
+		background-color:#9EB45B;
+		padding: 10px;
 		text-align: center;
 		font-family:Arial, Helvetica, sans-serif;
+		color: whitesmoke;
 		font-weight: 400px;
-		font-size: 30px;}		
-	.wrapper p {width: 50%;
-		margin:0px auto;
-		padding: 20px 45px 20px 45px;
-		text-align: center;
-		font-size: 15px;
-		font-family:Arial, Helvetica, sans-serif;
-		font-weight: 400px}
-	.mobileaboutbutton {margin:0px auto;
-		display: inline-block;
-        background-color:#000;
-        padding: 15px 30px 15px;
-        color: whitesmoke;
-		text-align: center;
-        font-family:Arial, Helvetica, sans-serif;
-        font-size: 18px;
-        text-decoration: none}}
+        font-size: 15px}
         
 /*END of Navbar and Header CSS*/
+
 
 
     /* START of About Section CSS
