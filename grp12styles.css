@@ -1,40 +1,41 @@
 /* ----------   GLOBAL CSS STYLES    ---------- */
-    /*Colours: gray-#7D8D87, green-#9EB45B, lightgray-#f1f1f1, black-#000, white-#fff, tan-#CBC497, brown-#B87f45 */
-	
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;}
-    
-    /*For Tablets: */
-    @media only screen and (min-width: 600px) {
-        .col-s-1 {width: 8.33%;}
-        .col-s-2 {width: 16.66%;}
-        .col-s-3 {width: 25%;}
-        .col-s-4 {width: 33.33%;}
-        .col-s-5 {width: 41.66%;}
-        .col-s-6 {width: 50%;}
-        .col-s-7 {width: 58.33%;}
-        .col-s-8 {width: 66.66%;}
-        .col-s-9 {width: 75%;}
-        .col-s-10 {width: 83.33%;}
-        .col-s-11 {width: 91.66%;}
-        .col-s-12 {width: 100%;}}
-    
-    /*For Desktops */
-    @media only screen and (min-width: 768px) {
-        .col-1 {width: 8.33%;}
-        .col-2 {width: 16.66%;}
-        .col-3 {width: 25%;}
-        .col-4 {width: 33.33%;}
-        .col-5 {width: 41.66%;}
-        .col-6 {width: 50%;}
-        .col-7 {width: 58.33%;}
-        .col-8 {width: 66.66%;}
-        .col-9 {width: 75%;}
-        .col-10 {width: 83.33%;}
-        .col-11 {width: 91.66%;}
-        .col-12 {width: 100%;}}
+/*Colours: gray-#7D8D87, green-#9EB45B, lightgray-#f1f1f1, black-#000, white-#fff, tan-#CBC497, brown-#B87f45 */
 
+/*START of media tags for resposnsive design*/
+/*Carina Leale: Last modified 26-Nov-2020*/
+/*Retrieved 12 column design from: https://www.w3schools.com/css/css_rwd_grid.asp*/
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;}
+/*For Tablets: */
+@media only screen and (min-width: 600px) {
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}}
+/*For Desktops */
+@media only screen and (min-width: 768px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}}
+/*EMD of media tags for responsive design*/
    
 
 /* ----------  END GLOBAL CSS STYLES  --------- */
@@ -229,12 +230,9 @@
 /*END of Navbar and Header CSS*/
 
 
-
-
-
-
-    /* START of About Section CSS
-    Carina Leale: Last Modified 23-Nov-2020*/
+/* START of About Section CSS
+    Carina Leale: Last Modified 6Dec-2020*/
+		/*CSS index page inspo from: https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm; https://www.evarigisconsulting.com/company */
 		/* Create two columns that float next to each other */
 		.col-left {
 			float: left;}
@@ -275,17 +273,30 @@
                 padding-left: 5%;
                 padding-right: 5%;}
         img.aboutcompanyimg1 {
-            max-width: 100%;
+            display:block;
+			margin-left:auto;
+			margin-top:auto;
+			margin-bottom:auto;
+			margin-right:auto;
+			max-width: 100%;
             height: auto;
-            padding: 3%;
-			padding-bottom: 10%;
-			float: left;}
+            padding: 3%;}
 		 img.aboutcompanyimg2 {
-            max-width: 100%;
+            display:block;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:auto;
+			margin-bottom:auto;
+			max-width: 100%;
             height: auto;
-            padding: 3%;
-			padding-top: 10%;
-			float: right;}       
+            padding: 3%;} 
+
+		.figure {
+			font-size:80%;
+			color:#7D8D87;
+			font-family: arial;
+			text-align: center;
+			padding: 3%}
     /*END of About Section CSS*/
 
 
