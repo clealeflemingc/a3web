@@ -136,7 +136,7 @@
         text-decoration: none}
     a:hover {background-color: #f1f1f1;
         color:#000}		
-	.mobilenavbar{display:none}
+	.mobilenavbar{display:none; cursor: pointer;}
 	.mobileheader{display:none}
 	@media only screen and (min-width: 645px) {
 		.logo {float: left;
