@@ -47,6 +47,7 @@
     /*Sarah Griffiths:Last Modified 7-Dec-2020*/
 
 	/* Desktop-Tablet Navigation Bar*/
+	/* Dropdown Navbar modified from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
     ul {list-style-type: none;
         font-weight: 400;
         overflow: hidden;
@@ -104,13 +105,15 @@
 		padding:5px 10px}
 	
 
-	/* Tablet-Size Adjustment to Navigation Bar*/
+	/* Tablet-Size Adjustment to Navigation Bar */
+	/* Use of media queries following https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+	/* Adjustments made to prevent the image from colliding with the text */
 	@media only screen and (max-width: 847px) and (min-width:645px) {
 	.desktopnavlogo{display:none}}
 	
 	/* Mobile Navigation Bar */
-	/* Header Responsive Design: https://www.youtube.com/watch?v=ZYV6dYtz4HA&ab_channel=DaniKrossing */
-	/* Hamburger: https://www.youtube.com/watch?v=At4B7A4GOPg&ab_channel=WebDevSimplified */		
+	/* Hamburger modified from https://www.youtube.com/watch?v=At4B7A4GOPg&ab_channel=WebDevSimplified */		
+	/* Use of vw units for scaling to viewport following https://www.w3schools.com/cssref/css_units.asp */
 	@media only screen and (max-width: 645px) {
 	.desktopnavbar{display:none}
 	.toggle-button {display: flex;
@@ -161,6 +164,7 @@
 		padding:0}}
 
 	/* Desktop-Tablet Header */	
+	/* Opacity adopted from https://www.w3schools.com/cssref/css3_pr_opacity.asp */
     header {margin: 0;
         text-align: center;
 		padding-top:5vw;
@@ -170,7 +174,7 @@
         color: whitesmoke;
         font-family: Arial, Helvetica, sans-serif;
         padding-right:75px;
-        padding-left: 75px;}
+        padding-left: 75px}
 	.head-text-right {float: right}
 	.head-text-left {float: left}
     .logo {float: left;
@@ -198,24 +202,42 @@
     a:hover {background-color: #f1f1f1;
         color:#000}		
 	.mobileheader{display:none}
+	
+	
+	/* Tablet-Size Adjustment to Header */
+	/* Adjustments made to prevent the image from colliding with the text */
+	@media only screen and (max-width: 847px) and (min-width:645px) {
+	header{padding-right:5vw;
+        padding-left: 5vw}}
 
+	/* Header Responsive Design modified from https://www.youtube.com/watch?v=ZYV6dYtz4HA&ab_channel=DaniKrossing */
 
 	/* Mobile Header */
 	@media only screen and (max-width: 645px) {
 	header {display:none}
 	.mobileheader{display:block;
 		background-color: #9EB45B;
-		padding:10px}
-	.mobileheader h1 {font-weight:400px;
-		font-size: 30px;
+		padding:10px 10px 20px 10px}
+	.mobileheader h1 {font-size: 30px;
 		text-align: center;
 		font-family: Arial, Helvetica, sans-serif;
 		color: whitesmoke}
-	.mobileheader p {font-weight: 200px;
-		font-size: 15px;
+	.mobileheader p {font-size: 20px;
 		text-align: center;
 		font-family:Arial, Helvetica, sans-serif;
-		color: whitesmoke}}
+		color: whitesmoke}
+	.mobileheaderbutton {display: block;
+        background-color:#000;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom:15px;
+        padding-top: 15px;
+        color: whitesmoke;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 18px;
+		text-decoration: none;
+		text-align:center;
+		margin:10px 35px 10px 35px}}
 
 /*END of Navbar and Header CSS*/
 
@@ -444,11 +466,9 @@
 
 /* -------   GIS SERVICES CSS STYLES    ------- */
 
-.desktopnavlogo {float:right;
-	padding:5px 10px}
-    .desktopnavpages {float:right}
 /* START of GIS Services Page Navbar and Header */
 /* Sarah Griffiths; Last modified 7-Dec-2020*/
+
 	/* Desktop-Tablet Navigation Bar*/
 	.GIS-page-button {
         font-size: 20px;  
@@ -458,8 +478,17 @@
         padding: 16px 16px;
         background-color: whitesmoke;
         font-family: Arial, Helvetica, sans-serif;
-        margin: 0}	
-/* END of GIS Services Page Navbar and Header*/
+        margin: 0}		
+	.desktopnavlogo {float:right;
+		padding:5px 10px}
+		
+	/* Desktop-Tablet Header */
+	.gisheaderimage {float: left;
+		margin: 0;
+		width: 30vw;
+		height:20vw}
+	
+	/* Mobile features inherited from Index */
 
 /*START of GIS Services page image formating*/	
 /*Carina Leale; Last Modified: 6-Dec-2020*/
@@ -484,12 +513,17 @@ img.services {
 
 /* START of Project Page Navbar and Header */
 /* Sarah Griffiths; Last Modified: 7-Dec-2020 */
-	/* Desktop-Tablet Header */
-	.projectimage {float: left;
-		margin: 0;
-		width:20vw;
-		height:23vw}
+
+/* Desktop-Tablet Header */
+.projectsheaderimage {float: left;
+    margin: 0;
+    width: 32vw;
+    height:21vw}
+    
+/* Mobile features inherited from Index */
+            
 /* END of Project Page Navbar and Header */
+
 /*START of Project Example Section */
 /*Carina Leale; Last Modified: 7-Dec-2020*/
 img.projectsimages{
@@ -511,7 +545,18 @@ img.projectsimages{
 
 /* -------   MEET OUR TEAM CSS STYLES    ------- */
 
+/* START of Meet Our Team Page Navbar and Header */
+/* Sarah Griffiths; Last Modified: 7-Dec-2020 */
 
+/* Desktop-Tablet Header */
+.meetteamimage{float:left;
+    margin:0;
+    width:35vw;
+    height:18vw}
+    
+    /* Mobile features inherited from Index */
+    
+    /* END of Meet Our Team Page Navbar and Header */
 
 /* ------  END MEET OUR TEAM CSS STYLES   ------ */
 
@@ -520,7 +565,22 @@ img.projectsimages{
 
 /* --------     CAREERS CSS STYLES     --------- */
 
-    /*START of Careers job postings*/
+/* START of Careers Page Navbar and Header */
+/* Sarah Griffiths; Last Modified: 7-Dec-2020 */
+
+/* Desktop-Tablet Header */
+
+.careersheaderimage {float: left;
+    margin: 0;
+    width: 31vw;
+    height:20vw}
+    
+/* Mobile features inherited from Index */
+
+/* END of Careers Page Navbar and Header */
+    
+
+/*START of Careers job postings*/
 	/*Carina Leale; Last Modified 6-Dec-2020*/
 	/*Style inspiration from: https://www.evarigisconsulting.com/careers*/
     .careerscenter{text-align: center;}
