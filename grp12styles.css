@@ -490,7 +490,18 @@ img.services {
 		width:20vw;
 		height:23vw}
 /* END of Project Page Navbar and Header */
-
+/*START of Project Example Section */
+/*Carina Leale; Last Modified: 7-Dec-2020*/
+img.projectsimages{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	max-width: 100%;
+	height: auto;
+	padding: 3%;} 
+/*END of Project Example Section*/
 
 /* --------   END PROJECT CSS STYLES    ------- */
 
