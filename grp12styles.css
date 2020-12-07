@@ -490,7 +490,18 @@ img.services {
 		width:20vw;
 		height:23vw}
 /* END of Project Page Navbar and Header */
-
+/*START of Project Example Section */
+/*Carina Leale; Last Modified: 7-Dec-2020*/
+img.projectsimages{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	max-width: 100%;
+	height: auto;
+	padding: 3%;} 
+/*END of Project Example Section*/
 
 /* --------   END PROJECT CSS STYLES    ------- */
 
@@ -520,6 +531,17 @@ img.services {
         padding-left: 5%;
         padding-right: 5%;
         line-height: 150%}
+	.careertitles{
+		padding-top:0.25%;
+        padding-bottom:0.25%;
+		margin-top:1%;
+		margin-bottom:0.2%;
+        font-family:arial;
+        font-size:large;
+        font-weight:600;
+        color: #7D8D87;
+        padding-left: 5%;
+        padding-right: 5%;}
     /*END of Careers job postings*/
     
 
