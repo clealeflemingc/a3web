@@ -239,13 +239,11 @@
 			float: left;}
 		.col-right {
 			float: right;}
-
 		/* Clear floats after the columns */
 		.row:after {
 			content: "";
 			display: table;
 			clear: both;}
-		
         .aboutblock {background-color:whitesmoke;
                 padding-bottom: 1%;
                 padding-top: 1%;}
@@ -291,7 +289,6 @@
 			max-width: 100%;
             height: auto;
             padding: 3%;} 
-
 		.figure {
 			font-size:80%;
 			color:#7D8D87;
@@ -304,7 +301,6 @@
 
     /*START of Footer CSS
     Toby Agomuo; Last Modified: */
-    
 	.footer{
 			
 			width: 100%;
@@ -398,7 +394,9 @@
         }
 
     /*END of Footer CSS */
-/* -----   Contact us Css    ----- */
+
+/* ----- START of Contact us Css    ----- */
+/*Toby Agomuo; Last Modified: */
 .contact-form{
   width: 85%;
   max-width: 600px;
@@ -449,11 +447,9 @@
   margin-top: 8px;
   width: 100%;
 }
-
+/*END of Contact Us CSS*/
 
 /* -----   END INDEX (HOME) CSS STYLES    ----- */
-
-
 
 
 
@@ -462,6 +458,7 @@
 .desktopnavlogo {float:right;
 	padding:5px 10px}
     .desktopnavpages {float:right}
+
 /*START of GIS Services page image formating*/	
 /*Carina Leale; Last Modified: 6-Dec-2020*/
 img.services {
@@ -473,7 +470,7 @@ img.services {
     max-width: 100%;
     height: auto;
     padding: 3%;}
-    /*END of GIS Services page image formatting*/
+/*END of GIS Services page image formatting*/
 
 /* -----   END GIS SERVICES CSS STYLES    ----- */
 
@@ -517,7 +514,14 @@ img.services {
     /*START of Careers job postings*/
 	/*Carina Leale; Last Modified 6-Dec-2020*/
 	/*Style inspiration from: https://www.evarigisconsulting.com/careers*/
-	.careerscenter{text-align: center;}
+    .careerscenter{text-align: center;}
+    .careerlist{font-family:arial;
+        font-size:medium;
+        color:#7D8D87;
+        font-weight:300;
+        padding-left: 5%;
+        padding-right: 5%;
+        line-height: 150%}
     /*END of Careers job postings*/
     
 
