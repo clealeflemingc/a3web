@@ -332,7 +332,7 @@ font-family: 'arial';
 font-size: 16px;
 font-weight: 200;
 display: block;
-width: 100;
+width: 100%;
 padding-top: 20px;}
 .footer-bottom {
 text-align: center;
