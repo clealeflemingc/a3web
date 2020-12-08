@@ -1,6 +1,7 @@
 /* ----------   GLOBAL CSS STYLES    ---------- */
 /*Colours: gray-#7D8D87, green-#9EB45B, lightgray-#f1f1f1, black-#000, white-#fff, tan-#CBC497, brown-#B87f45 */
 /*Colour Palette from: https://www.vyond.com/resources/20-color-palettes-for-your-brand-design/*/
+
 /*START of media tags for resposnsive design*/
 /*Carina Leale: Last modified 26-Nov-2020*/
 /*Retrieved 12 column design from: https://www.w3schools.com/css/css_rwd_grid.asp*/
@@ -18,16 +19,12 @@ width: 100%;}
 .col-8 {width: 66.66%;}
 .col-9 {width: 75%;}}
 /*END of media tags for responsive design*/
-
-
 /* ----------  END GLOBAL CSS STYLES  --------- */
 
 
 /* -------   INDEX (HOME) CSS STYLES    ------- */
-
 /* START of Navbar and Header CSS*/
 /*Sarah Griffiths:Last Modified 7-Dec-2020*/
-
 /* Desktop-Tablet Navigation Bar*/
 /* Dropdown Navbar modified from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
 /* Dropdown Navbar modified also with aid of https://www.w3schools.com/cssref/pr_pos_z-index.asp to stack the list - explained the z-index */
@@ -77,7 +74,6 @@ display: block}
 .desktopnavlogo {float:right;
 padding:5px 10px}
 .mobilenavbar{display:none}
-
 
 /* Tablet-Size Adjustment to Navigation Bar */
 /* Use of media queries following https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
@@ -168,7 +164,6 @@ a:hover {background-color: #f1f1f1;
 color:#000}		
 .mobileheader{display:none}
 
-
 /* Tablet-Size Adjustment to Header */
 /* Adjustments made to prevent the image from colliding with the text */
 @media only screen and (max-width: 847px) and (min-width:645px) {
@@ -204,7 +199,6 @@ font-size: 18px;
 text-decoration: none;
 text-align:center;
 margin:10px 35px 10px 35px}}
-
 /*END of Navbar and Header CSS*/
 
 
@@ -272,11 +266,9 @@ padding: 3%}
 /*END of About Section CSS*/
 
 
-
 /*START of Footer CSS
 Toby Agomuo; Last Modified: */
 .footer{
-
 width: 100%;
 display: block;
 overflow: hidden;
@@ -289,7 +281,6 @@ background-color:#9EB45B;
     margin: 0 auto;
     width: 1100px;
     height: 100%;
-    
     }
 .innerFooter .logo{
 width: 35%;
@@ -325,7 +316,6 @@ padding-bottom: 5px;}
 display: inline-block;
 padding: 0 5px;
 font-size: 20px;}
-
 .innerFooter .foot span{
 color: white;
 font-family: 'arial';
@@ -337,34 +327,29 @@ padding-top: 20px;}
 .footer-bottom {
 text-align: center;
 color: white;
-padding-top: 50px;}
-        
+padding-top: 50px;}       
 @media  (max-width: 800px)
 {
 .footer .innerFooter{
-        width: 90px;
-    
+        width: 90px;  
 }
 .innerFooter .logo,
 .innerFooter .foot{
-
     width: 100%;
     margin-bottom: 30px;
 }
 }
-
 /*END of Footer CSS */
+
 
 /* ----- START of Contact us CSS    ----- */
 /*Toby Agomuo; Last Modified: */
-
 /* image source https://pxhere.com/en/photo/113640 */
 .bBox{
 padding: 0 100px;
 background-image: url("images/pix.jpg");
 height: 100vh;
 background-size: cover;
-
 }
 .contact-form{
 width: 85%;
@@ -421,9 +406,7 @@ width: 100%;
 /* -----   END INDEX (HOME) CSS STYLES    ----- */
 
 
-
 /* -------   GIS SERVICES CSS STYLES    ------- */
-
 /* START of GIS Services Page Navbar and Header */
 /* Sarah Griffiths; Last modified 7-Dec-2020*/
 /* Styling to make the button appear like it is "active" as the other li a tags were on other pages */
@@ -440,7 +423,6 @@ width: 100%;
 .gisheaderimage {float: left;
     width: 30vw;
     height:20vw}
-
 /* Mobile features inherited from Index */
 
 /*START of GIS Services page image formating*/	
@@ -455,26 +437,18 @@ max-width: 100%;
 height: auto;
 padding: 3%;}
 /*END of GIS Services page image formatting*/
-
 /* -----   END GIS SERVICES CSS STYLES    ----- */
 
 
-
-
-
 /* ---------   PROJECT  CSS STYLES    --------- */
-
 /* START of Project Page Navbar and Header */
 /* Sarah Griffiths; Last Modified: 7-Dec-2020 */
-
 /* Desktop-Tablet Header */
 /* Specific scaling for page specific image */	
 .projectsheaderimage {float: left;
 width: 32vw;
 height:21vw}
-
 /* Mobile features inherited from Index */
-    
 /* END of Project Page Navbar and Header */
 
 /*START of Project Examples Section */
@@ -489,38 +463,25 @@ max-width: 100%;
 height: auto;
 padding: 3%;} 
 /*END of Project Examples Section*/
-
 /* --------   END PROJECT CSS STYLES    ------- */
 
 
-
-
-
 /* -------   MEET OUR TEAM CSS STYLES    ------- */
-
 /* START of Meet Our Team Page Navbar and Header */
 /* Sarah Griffiths; Last Modified: 7-Dec-2020 */
-
 /* Desktop-Tablet Header */
 /* Specific scaling for page specific image */	
 .meetteamimage{float:left;
 width:35vw;
 height:18vw}
-
 /* Mobile features inherited from Index */
-
 /* END of Meet Our Team Page Navbar and Header */
-
 /* ------  END MEET OUR TEAM CSS STYLES   ------ */
 
 
-
-
 /* --------     CAREERS CSS STYLES     --------- */
-
 /* START of Careers Page Navbar and Header */
 /* Sarah Griffiths; Last Modified: 7-Dec-2020 */
-
 /* START of Careers Page Navbar and Header */
 /* Sarah Griffiths; Last Modified: 7-Dec-2020 */
 /* Desktop-Tablet Header */
@@ -529,7 +490,6 @@ height:18vw}
 width: 31vw;
 height:20vw}
 /* Mobile features inherited from Index */
-
 /* END of Careers Page Navbar and Header */
 
 
@@ -555,6 +515,4 @@ color: #7D8D87;
 padding-left: 5%;
 padding-right: 5%;}
 /*END of Careers job postings*/
-
-
 /* ------     END CAREERS CSS STYLES     ------- */
