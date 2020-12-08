@@ -124,7 +124,7 @@ margin:2px;
 padding:0}}
 
 /* Desktop-Tablet Header */	
-/* Opacity adopted from https://www.w3schools.com/cssref/css3_pr_opacity.asp */
+/* Opacity adopted from https://www.w3schools.com/cssref/css3_pr_opacity.asp to "desaturate" the colours as there was a lot of colour blocking at the top */
 /* I created two versions of the 'header,' one for desktop/tablet and one for mobile screen sizes */
 /* Header layout for desktop/tablet inspired by template from: https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm */
 /* Used vw sizing to help scale the images and text as part of repsonsive design */
