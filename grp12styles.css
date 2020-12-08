@@ -387,6 +387,13 @@ padding: 3%}
 
 /* ----- START of Contact us Css    ----- */
 /*Toby Agomuo; Last Modified: */
+.bBox{
+    padding: 0 100px;
+    background-image: url("images/pix.jpg");
+     height: 100vh;
+    background-size: cover;
+
+}
 .contact-form{
   width: 85%;
   max-width: 600px;
