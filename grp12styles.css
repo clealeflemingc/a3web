@@ -1,6 +1,7 @@
 /* ----------   GLOBAL CSS STYLES    ---------- */
 /*Colours: gray-#7D8D87, green-#9EB45B, lightgray-#f1f1f1, black-#000, white-#fff, tan-#CBC497, brown-#B87f45 */
-/*START of media tags for responsive design*/
+
+/*START of media tags for resposnsive design*/
 /*Carina Leale: Last modified 26-Nov-2020*/
 /*Retrieved 12 column design from: https://www.w3schools.com/css/css_rwd_grid.asp*/
 /* For mobile phones: */
@@ -8,15 +9,35 @@
 	width: 100%;}
 /*For Tablets: */
 @media only screen and (min-width: 600px) {
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
 	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
 	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}}
 /*For Desktops */
 @media only screen and (min-width: 768px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
 	.col-3 {width: 25%;}
 	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
 	.col-8 {width: 66.66%;}
 	.col-9 {width: 75%;}
-/*END of media tags for responsive design*/
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}}
+/*EMD of media tags for responsive design*/
+   
+
 /* ----------  END GLOBAL CSS STYLES  --------- */
 
 
@@ -28,7 +49,6 @@
 	/* Desktop-Tablet Navigation Bar*/
 	/* Dropdown Navbar modified from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
     ul {list-style-type: none;
-        font-weight: 400;
         overflow: hidden;
         background-color: #CBC497;
         padding: 0;
@@ -36,18 +56,15 @@
     li {float: left}
     li a {display: block;
         color: whitesmoke;
-        font-family: arial;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
-        text-align: left;
         padding: 16px 16px;
         text-decoration: none}
     li a:hover {background-color: whitesmoke; 
         color: #000}
     .active {background-color: whitesmoke;
         color: #000}
-    .dropdown {
-        float: left;
-        overflow: hidden;}
+    .dropdown {float: left}
     .dropdown .dropbtn {
         font-size: 20px;  
         border: none;
@@ -55,26 +72,21 @@
         color: whitesmoke;
         padding: 16px 16px;
         background-color: inherit;
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0}
-    .desktopnavbar a:hover, .dropdown:hover .dropbtn {
+        font-family: Arial, Helvetica, sans-serif}
+    .dropdown:hover .dropbtn {
         background-color: whitesmoke;
         color: #000}
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: f1f1f1;
-        min-width: 160px;
+        background-color: #f1f1f1;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1}
     .dropdown-content a {
-        float: none;
-        background-color: #f1f1f1;
         color: black;
         padding: 16px 16px;
         text-decoration: none;
-        display: block;
-        text-align: left}
+        display: block}
     .dropdown-content a:hover {
         background-color: whitesmoke}
     .dropdown:hover .dropdown-content {
@@ -221,71 +233,71 @@
 /*END of Navbar and Header CSS*/
 
 
-/* START of About Section CSS*/
-/*Carina Leale: Last Modified 6-Dec-2020*/
-/*CSS inspo from: https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm; https://www.evarigisconsulting.com/company */
-/* Create two columns that float next to each other */
-.col-left {
-float: left;}
-.col-right {
-float: right;}
-/* Clear floats after the columns */
-.row:after {
-content: "";
-display: table;
-clear: both;}
-.aboutblock {background-color:whitesmoke;
-padding-bottom: 1%;
-padding-top: 1%;}
-.title {font-size:40px;
-font-family:Arial, Helvetica, sans-serif;
-font-weight:400;
-color: #B87f45;
-padding-left: 5%;
-padding-right: 5%;}
-.subtitle  {padding-top:0.25%;
-padding-bottom:0.25%;
-font-family:Arial, Helvetica, sans-serif;
-font-size:large;
-font-weight:600;
-color: #7D8D87;
-padding-left: 5%;
-padding-right: 5%;}
-.bodytext {font-family:Arial, Helvetica, sans-serif;
-font-size:medium;
-color:#7D8D87;
-font-weight:300;
-padding-left: 5%;
-padding-right: 5%;
-line-height: 200%}
-.linedivider {border-top: 1.5px #9EB45B solid;
-padding-left: 5%;
-padding-right: 5%;}
-img.aboutcompanyimg1 {
-display:block;
-margin-left:auto;
-margin-top:auto;
-margin-bottom:auto;
-margin-right:auto;
-max-width: 100%;
-height: auto;
-padding: 3%;}
-img.aboutcompanyimg2 {
-display:block;
-margin-left:auto;
-margin-right:auto;
-margin-top:auto;
-margin-bottom:auto;
-max-width: 100%;
-height: auto;
-padding: 3%;} 
-.figure {
-font-size:80%;
-color:#7D8D87;
-font-family: Arial, Helvetica, sans-serif;
-text-align: center;
-padding: 3%}
-/*END of About Section CSS*/
+/* START of About Section CSS
+    Carina Leale: Last Modified 6Dec-2020*/
+		/*CSS index page inspo from: https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm; https://www.evarigisconsulting.com/company */
+		/* Create two columns that float next to each other */
+		.col-left {
+			float: left;}
+		.col-right {
+			float: right;}
+		/* Clear floats after the columns */
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;}
+        .aboutblock {background-color:whitesmoke;
+                padding-bottom: 1%;
+                padding-top: 1%;}
+        .title {font-size:40px;
+                font-family:arial;
+                font-weight:400;
+                color: #B87f45;
+                padding-left: 5%;
+                padding-right: 5%;}
+        .subtitle  {padding-top:0.25%;
+                padding-bottom:0.25%;
+                font-family:arial;
+                font-size:large;
+                font-weight:600;
+                color: #7D8D87;
+                padding-left: 5%;
+                padding-right: 5%;}
+        .bodytext {font-family:arial;
+                font-size:medium;
+                color:#7D8D87;
+                font-weight:300;
+                padding-left: 5%;
+                padding-right: 5%;
+                line-height: 200%}
+        .linedivider {border-top: 1.5px #9EB45B solid;
+                padding-left: 5%;
+                padding-right: 5%;}
+        img.aboutcompanyimg1 {
+            display:block;
+			margin-left:auto;
+			margin-top:auto;
+			margin-bottom:auto;
+			margin-right:auto;
+			max-width: 100%;
+            height: auto;
+            padding: 3%;}
+		 img.aboutcompanyimg2 {
+            display:block;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:auto;
+			margin-bottom:auto;
+			max-width: 100%;
+            height: auto;
+            padding: 3%;} 
+		.figure {
+			font-size:80%;
+			color:#7D8D87;
+			font-family: arial;
+			text-align: center;
+			padding: 3%}
+    /*END of About Section CSS*/
 
 
 
@@ -472,14 +484,14 @@ padding: 3%}
 /*START of GIS Services page image formating*/	
 /*Carina Leale; Last Modified: 6-Dec-2020*/
 img.services {
-display:block;
-margin-left:auto;
-margin-right:auto;
-margin-top:auto;
-margin-bottom:auto;
-max-width: 100%;
-height: auto;
-padding: 3%;}
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    max-width: 100%;
+    height: auto;
+    padding: 3%;}
 /*END of GIS Services page image formatting*/
 
 /* -----   END GIS SERVICES CSS STYLES    ----- */
@@ -506,14 +518,14 @@ padding: 3%;}
 /*START of Project Example Section */
 /*Carina Leale; Last Modified: 7-Dec-2020*/
 img.projectsimages{
-display:block;
-margin-left:auto;
-margin-right:auto;
-margin-top:auto;
-margin-bottom:auto;
-max-width: 100%;
-height: auto;
-padding: 3%;} 
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	max-width: 100%;
+	height: auto;
+	padding: 3%;} 
 /*END of Project Example Section*/
 
 /* --------   END PROJECT CSS STYLES    ------- */
@@ -560,28 +572,28 @@ padding: 3%;}
     
 
 /*START of Careers job postings*/
-/*Carina Leale; Last Modified 6-Dec-2020*/
-/*Jobposting CSS inspiration from: https://www.evarigisconsulting.com/careers, & Indeed Ads*/
-.careerscenter{text-align: center;}
-.careerlist{font-family:Arial, Helvetica, sans-serif;
-font-size:medium;
-color:#7D8D87;
-font-weight:300;
-padding-left: 5%;
-padding-right: 5%;
-line-height: 150%}
-.careertitles{
-padding-top:0.25%;
-padding-bottom:0.25%;
-margin-top:1%;
-margin-bottom:0.2%;
-font-family:Arial, Helvetica, sans-serif;
-font-size:large;
-font-weight:600;
-color: #7D8D87;
-padding-left: 5%;
-padding-right: 5%;}
-/*END of Careers job postings*/
+	/*Carina Leale; Last Modified 6-Dec-2020*/
+	/*Style inspiration from: https://www.evarigisconsulting.com/careers*/
+    .careerscenter{text-align: center;}
+    .careerlist{font-family:arial;
+        font-size:medium;
+        color:#7D8D87;
+        font-weight:300;
+        padding-left: 5%;
+        padding-right: 5%;
+        line-height: 150%}
+	.careertitles{
+		padding-top:0.25%;
+        padding-bottom:0.25%;
+		margin-top:1%;
+		margin-bottom:0.2%;
+        font-family:arial;
+        font-size:large;
+        font-weight:600;
+        color: #7D8D87;
+        padding-left: 5%;
+        padding-right: 5%;}
+    /*END of Careers job postings*/
     
 
 /* ------     END CAREERS CSS STYLES     ------- */
