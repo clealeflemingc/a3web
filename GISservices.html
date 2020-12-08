@@ -3,80 +3,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>GIS Services</title>
-  <link rel = "shortcut icon" type = "image/png" href="images/favicon.png">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="grp12styles.css">
+<title>GIS Services</title>
+<link rel = "shortcut icon" type = "image/png" href="images/favicon.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="grp12styles.css">
 </head>
 
 <body>
 
 <!-- START of Navbar -->
-<!-- Sarah Griffiths; Last Modified 7-Dec-2020 --> 
-	  
-	<!-- Desktop-Tablet -->
-	<ul class="desktopnavbar">
-		<li><a href="index.html">Home</a>
-			<li class="dropdown">
-				<button class="GIS-page-button">GIS Services</button>
-				<div class="dropdown-content">
-					<a href="GISservices.html">Service Inquiries</a>
-					<a href="#Mapping">Municipal Mapping</a>
-					<a href="#Web">GIS Web Applications</a>
-					<a href="#Analysis">Spatial Analysis</a>
-					<a href="#Sensing">Environmental Modeling and Remote Sensing</a>
-				</div>
-			</li>
-		<li><a href="Projects.html">Projects</a>
-		<li><a href="MeetOurTeam.html">Meet Our Team</a>
-		<li><a href="Careers.html">Careers</a>
-		<li class="desktopnavlogo"><img src ="images/navbarlogo.png" alt="Spatia GIS Company Logo" width="200" height="40">
+<!-- Sarah Griffiths; Last Modified 7-Dec-2020 -->  
+<!-- Desktop-Tablet -->
+<!-- This section contains the navbar for desktop and tablet sized screens (above 645px) -->
+<!-- The navbar is displayed horizontally in an unordered list with the company logo to the right -->
+<!-- Our "many in one" page is accessed through a dropdown menu under GIS Services, available upon hover -->
+<!-- While the first option in the dropdown menu links to the top of the GIS page, the rest link to anchors on the GIS page based on main content headings -->
+<!-- The page currently on is highlighted in a different colour from the base navbar, which coincides with the colour you see upon hover -->
+<!-- As the button that represents the GIS Services page is not anchored to a link, it is styled to look like the other navbar items when they are active -->	
+<ul class="desktopnavbar">
+<li><a href="index.html">Home</a>
+	<li class="dropdown">
+		<button class="GIS-page-button">GIS Services</button>
+		<div class="dropdown-content">
+			<a href="GISservices.html">Service Inquiries</a>
+			<a href="#Mapping">Municipal Mapping</a>
+			<a href="#Web">GIS Web Applications</a>
+			<a href="#Analysis">Spatial Analysis</a>
+			<a href="#Sensing">Environmental Modeling and Remote Sensing</a>
+		</div>
+	</li>
+<li><a href="Projects.html">Projects</a>
+<li><a href="MeetOurTeam.html">Meet Our Team</a>
+<li><a href="Careers.html">Careers</a>
+<li class="desktopnavlogo"><img src ="images/navbarlogo.png" alt="Spatia GIS Company Logo" width="200" height="40">
+</ul>
+
+<!-- Mobile -->
+<!-- This section contains the navbar that will display on small screens (below 645px) -->
+<!-- The menu changes from a horizontal display to a dropdown menu accessible by the "hamburger" button -->
+<!-- Hamburger modified from https://www.youtube.com/watch?v=At4B7A4GOPg&ab_channel=WebDevSimplified -->
+<!-- The following Javascript is used to make the hamburger interactive by click on/off to open and close the menu -->
+
+<script src="grp12javascript.js" defer></script>
+<nav class="mobilenavbar">
+<div class="company-title">
+	<img src ="images/navbarlogo.png" alt="Spatia GIS Company Logo" width="200" height="40">
+</div>
+<a href="#" class="toggle-button">
+	<span class="bar"></span>
+	<span class="bar"></span>
+	<span class="bar"></span>
+</a>
+<div class="mobilenavbar-links">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="GISservices.html">GIS Serivces</a></li>
+		<li><a href="Projects.html">Projects</a></li>
+		<li><a href="MeetOurTeam.html">Meet Our Team</a></li>
+		<li><a href="Careers.html">Careers</a></li>
 	</ul>
-	
-	<!-- Mobile -->
-	<script src="grp12javascript.js" defer></script>
-	<nav class="mobilenavbar">
-		<div class="company-title">
-			<img src ="images/navbarlogo.png" alt="Spatia GIS Company Logo" width="200" height="40">
-		</div>
-		<a href="#" class="toggle-button">
-			<span class="bar"></span>
-			<span class="bar"></span>
-			<span class="bar"></span>
-		</a>
-		<div class="mobilenavbar-links">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="GISservices.html">GIS Serivces</a></li>
-				<li><a href="Projects.html">Projects</a></li>
-				<li><a href="MeetOurTeam.html">Meet Our Team</a></li>
-				<li><a href="Careers.html">Careers</a></li>
-			</ul>
-		</div>
-	</nav>
+</div>
+</nav>
 
 <!-- END of Navbar-->
 
 <!-- START of Header -->
 <!-- Sarah Griffiths; Last Modified 7-Dec-2020 -->
-	<!-- Desktop-Tablet -->
-	<header>
-		<div class="head-text-left">
-			<img class="gisheaderimage" src ="images/gisheaderimage.jpg" alt="Topographic Map of Arizona" width="500" height="333">
-		</div>
-		<div class="head-text-right">
-			<h1 class="company">Spatia GIS Services</h1>
-			<p class="slogan">Leaders in GIS Advancements</p>
-			<a class="aboutbutton" href="contact.html">Find Out More</a>
-		</div>
-	</header>
-	<!-- Mobile -->
-	<div class="mobileheader">
-		<h1>Spatia GIS Services</h1>
-		<p>Leaders in GIS Advancements</p>
-		<a class="mobileheaderbutton" href="contact.html">Find Out More</a>
-	</div>
+<!-- Desktop-Tablet -->
+<!-- This section contains the header that is displayed on screens larger than 645px (desktop and tablets) -->
+<!-- The Find Out More button links to an anchor on a "hidden" page that represents where a contact form would be held, designed by Toby -->
+
+<header>
+<div class="head-text-left">
+<!-- Public Domain Creative Commons Image from https://pixnio.com/science/mapping-stream-reach# ; -->
+	<img class="gisheaderimage" src ="images/gisheaderimage.jpg" alt="Topographic Map of Arizona" width="500" height="333">
+</div>
+<div class="head-text-right">
+	<h1 class="company">Spatia GIS Services</h1>
+	<p class="slogan">Leaders in GIS Advancements</p>
+	<a class="aboutbutton" href="contact.html">Find Out More</a>
+</div>
+</header>
+<!-- Mobile -->
+<!-- Mobile -->
+<!-- This version of the header is displayed when screens are less than 645px -->
+<!-- The images from the desktop/tablet version were left out to keep the webpage clear and concise -->
+
+<div class="mobileheader">
+<h1>Spatia GIS Services</h1>
+<p>Leaders in GIS Advancements</p>
+<a class="mobileheaderbutton" href="contact.html">Find Out More</a>
+</div>
 <!--END of Header-->
 
 
@@ -124,7 +142,7 @@ Interactive European travel and tourism online web application.</div>
 </div>
 <div class="linedivider"></div>
 <!--END of GIS Web Applications-->
-	
+
 <!--START of Spatial Analysis-->
 <!-- Carina Leale; Last Modified 6-DEC-2020-->
 <!--Content Inspo from: https://www.gisresources.com/giswatershedwatershed-analysis/#:~:text=Watershed%20analysis%20refers%20to%20the,manually%20onto%20a%20topographic%20map.-->
@@ -175,7 +193,7 @@ Satellite imagery used to analyze fluvial dynamics in temporal shoreline stabili
 <!--END of Environmental Modeling and Remote Sensing-->
 </div>
 <!--END of Main Content-->
- 
+
 
 
 <!--START of Footer-->
